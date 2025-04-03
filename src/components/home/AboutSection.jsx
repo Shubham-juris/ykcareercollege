@@ -41,7 +41,7 @@ export default function AboutSection() {
               </h2>
               <p className="text-gray-600 mb-8">
                 We believe education is the foundation for a better future. Our
-                platform connects students with resources, expert instructors,
+                platform connects students with resources. expert instructors,
                 and a community of peers to foster continuous learning and
                 growth.
               </p>
