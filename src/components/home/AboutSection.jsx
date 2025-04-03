@@ -122,7 +122,7 @@ export default function AboutSection() {
                   </div>
                   <div>
                     <h3 className="font-medium text-gray-800 mb-1">
-                      Find the right instructor for you
+                      Find the right instructor for you,
                     </h3>
                     <p className="text-gray-600 text-sm">
                       Our instructors are experts in their fields with years of
