@@ -9,7 +9,7 @@ export default function Testimonial() {
       content:
         "Client-centric potentialities. Intrinsically redefine resource-leveling meta services via fully tested action items. Appropriately brand open source e-tailers through one-to-one communities. Conveniently empower functionalized through technically sound quality vectors Uniquely embrace high standards.",
       author: {
-        name: "David Alexon",
+        name: "David Miller",
         position: "JavaScript Developer",
         image: "https://randomuser.me/api/portraits/men/32.jpg",
       },

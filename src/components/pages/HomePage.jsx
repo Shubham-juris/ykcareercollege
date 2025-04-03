@@ -6,12 +6,12 @@ import Testimonial from "../home/Testimonial";
 
 export default function HomePage() {
   return (
-    <>
+    <div>
       <HeroSection />
       <AboutSection />
       <CourseCategories />
       <FeaturedCourses />
       <Testimonial />
-    </>
+    </div>
   );
 }

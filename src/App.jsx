@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-sans m-0">
       <Navbar />
       <main>
         <Router />

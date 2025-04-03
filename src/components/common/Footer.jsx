@@ -27,7 +27,7 @@ export default function Footer() {
 
             <p className="text-gray-300 mb-6">
               We're dedicated to providing high-quality education to everyone.
-              Our online platform makes learning accessible, flexible, and
+              Our online platform makes learning accessible. flexible, and
               enjoyable.
             </p>
 

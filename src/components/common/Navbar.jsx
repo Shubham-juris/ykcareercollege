@@ -139,7 +139,7 @@ export default function Navbar() {
               href="#"
               className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3"
             >
-              Login / Register
+              Login | Register
             </a>
           </div>
         </div>

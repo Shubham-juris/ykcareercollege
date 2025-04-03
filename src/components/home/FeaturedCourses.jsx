@@ -217,7 +217,7 @@ export default function FeaturedCourses() {
             href="/courses"
             className="inline-flex items-center text-[#7e66f9] font-medium hover:underline"
           >
-            View All Courses
+            View All Courses.
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 ml-2"

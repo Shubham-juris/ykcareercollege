@@ -50,7 +50,7 @@ export default function CourseCategories() {
             COURSE CATEGORIES
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Popular Topics To Learn
+            Popular Topics To Learn.
           </h2>
         </div>
 

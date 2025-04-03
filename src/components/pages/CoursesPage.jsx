@@ -1,1 +1,3 @@
-export default function CoursesPage() {}
+export default function CoursesPage() {
+  return <div></div>;
+}

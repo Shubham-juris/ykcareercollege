@@ -15,7 +15,7 @@ export default function HeroSection() {
           <p className="text-gray-600 mb-8 max-w-lg">
             Discover a new way of learning with our innovative platform. Join
             thousands of students from around the world in a journey of
-            knowledge and personal growth.
+            knowledge and personal growth,
           </p>
           <button className="bg-[#7e66f9] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a57cf] transition-colors flex items-center">
             Get Started Today
