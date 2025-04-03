@@ -37,7 +37,7 @@ export default function AboutSection() {
                 About Us
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
-                Creating A Community Of Life Long Learners
+                Creating A Community Of Life Long Learners.
               </h2>
               <p className="text-gray-600 mb-8">
                 We believe education is the foundation for a better future. Our
