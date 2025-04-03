@@ -34,7 +34,7 @@ export default function AboutSection() {
           <div className="w-full md:w-1/2 md:pl-16">
             <div className="max-w-lg">
               <span className="text-[#7e66f9] font-semibold mb-4 block">
-                About Us
+                About US
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
                 Creating A Community Of Life Long Learners.
