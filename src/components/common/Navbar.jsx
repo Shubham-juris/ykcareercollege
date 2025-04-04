@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,49 +30,49 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-[#7e66f9] font-medium">
+          <Link to="/" className="text-[#7e66f9] font-medium">
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to={"/about"}
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
             About
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/courses"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
             Courses
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/team"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
-            Pages
-          </a>
-          <a
-            href="#"
+            Teams
+          </Link>
+          <Link
+            to="blog"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
             Blog
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/shop"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
             Shop
-          </a>
+          </Link>
         </div>
 
         {/* Login/Register Button */}
         <div className="hidden md:block">
-          <a
-            href="#"
+          <Link
+            to="/"
             className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors"
           >
             Login / Register
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -102,45 +103,45 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden shadow-md mt-2 py-3 px-4 bg-white">
           <div className="flex flex-col space-y-3">
-            <a href="#" className="text-[#7e66f9] font-medium">
+            <Link to="/" className="text-[#7e66f9] font-medium">
               Home
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/about"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
               About
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/courses"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
               Courses
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/team"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
-              Pages
-            </a>
-            <a
-              href="#"
+              Teams
+            </Link>
+            <Link
+              to="/blog"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
               Blog
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/shop"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
               Shop
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/"
               className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3"
             >
               Login | Register
-            </a>
+            </Link>
           </div>
         </div>
       )}

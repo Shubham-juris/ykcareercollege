@@ -4,7 +4,7 @@ import CoursesPage from "../pages/CoursesPage";
 import HomePage from "../pages/HomePage";
 import BlogPage from "../pages/BlogPage";
 import ShopPage from "../pages/ShopPage";
-import PagesPage from "../pages/PagesPage";
+import TeamPage from "../pages/TeamPage";
 
 export default function Router() {
   return (
@@ -14,7 +14,7 @@ export default function Router() {
       <Route path="/courses" element={<CoursesPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/shop" element={<ShopPage />} />
-      <Route path="/pages" element={<PagesPage />} />
+      <Route path="/team" element={<TeamPage />} />
       <Route path="/" element={<HomePage />} />
     </Routes>
   );
