@@ -1,15 +1,21 @@
+
+import { BiCheck } from "react-icons/bi";
+// import aboutThumbImage from "../../assets/Images/Home/about-thumb.png"
+import aboutThumbImage from "../../assets/Images/Home/about-thumb.png"
+
+
 export default function AboutSection() {
   return (
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start ">
           {/* Left Image Area */}
-          <div className="w-full md:w-1/2 mb-10 md:mb-0 relative">
-            <div className="relative z-10 max-w-lg mx-auto md:mx-0">
+          <div className="w-full mb-10 md:mb-0 relative md:flex md:justify-center md:h-[650px] overflow-hidden lg:w-[50%] lg:h-[515px] ">
+            <div className="relative z-10 max-w-lg mx-auto md:mx-0 md:min-w-[696px] md:h-[615px] lg:h-[465px] lg:min-w-[500px]">
               <img
-                src="https://cdn.pixabay.com/photo/2020/06/08/09/01/hair-5273705_1280.jpg"
+                src={aboutThumbImage}
                 alt="Students learning together"
-                className="w-full h-auto rounded-xl shadow-lg"
+                className="w-full h-auto "
               />
               {/* Purple paint splash */}
               <div className="absolute -bottom-10 -left-10 z-[-1]">
@@ -31,12 +37,12 @@ export default function AboutSection() {
           </div>
 
           {/* Right Content Area */}
-          <div className="w-full md:w-1/2 md:pl-16">
-            <div className="max-w-lg">
+          <div className="w-full lg:w-1/2 md:px-4 md:mt-[50px] lg:mt-[25px]">
+            <div className="max-w-lg md:max-w-full">
               <span className="text-[#7e66f9] font-semibold mb-4 block">
                 About US
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
+              <h2 className="text-[20px] md:text-[22px] font-bold text-gray-800 mb-6 leading-tight">
                 Creating A Community Of Life Long Learners.
               </h2>
               <p className="text-gray-600 mb-8">
@@ -49,113 +55,46 @@ export default function AboutSection() {
               {/* Features */}
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
-                  <div className="bg-[#f3f0ff] p-2 rounded-full mr-4 mt-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-[#7e66f9]"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
+                  <div className="bg-[#7e66f9] p-1 rounded-md mr-4 mt-1">
+                    <BiCheck className="text-white"/>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-800 mb-1">
+                    <h3 className="font-medium text-[#555555] mb-1">
                       Learn From Anywhere
                     </h3>
-                    <p className="text-gray-600 text-sm">
-                      Access all courses from any device, anytime, anywhere.
-                    </p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-[#f3f0ff] p-2 rounded-full mr-4 mt-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-[#7e66f9]"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
+                  <div className="bg-[#7e66f9] p-1 rounded-md mr-4 mt-1">
+                  <BiCheck className="text-white"/>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-800 mb-1">
+                    <h3 className="font-medium text-[#555555] mb-1">
                       Flexible Classes
                     </h3>
-                    <p className="text-gray-600 text-sm">
-                      Choose from live sessions or recorded content at your own
-                      pace.
-                    </p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-[#f3f0ff] p-2 rounded-full mr-4 mt-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-[#7e66f9]"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
+                  <div className="bg-[#7e66f9] p-1 rounded-md mr-4 mt-1">
+                  <BiCheck className="text-white"/>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-800 mb-1">
+                    <h3 className="font-medium text-[#555555] mb-1">
                       Find the right instructor for you
                     </h3>
-                    <p className="text-gray-600 text-sm">
-                      Our instructors are experts in their fields with years of
-                      experience.
-                    </p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-[#f3f0ff] p-2 rounded-full mr-4 mt-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-[#7e66f9]"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
+                  <div className="bg-[#7e66f9] p-1 rounded-md mr-4 mt-1">
+                  <BiCheck className="text-white"/>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-800 mb-1">
+                    <h3 className="font-medium text-[#555555] mb-1">
                       Popular topics to learn now
                     </h3>
-                    <p className="text-gray-600 text-sm">
-                      Stay current with the most in-demand skills and knowledge
-                      areas.
-                    </p>
                   </div>
                 </div>
               </div>
