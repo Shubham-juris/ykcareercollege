@@ -1,3 +1,7 @@
+// import sliderThumbImg from "../../assets/Images/Home/HeroSection/slider-thumb.png"
+
+import sliderThumbImg from "../../assets/Images/Home/slider-thumb.png"
+
 export default function HeroSection() {
   return (
     <section className="relative bg-gradient-to-b from-[#f3f0ff] to-[#fef7f1] py-16 md:py-24 overflow-hidden">
@@ -20,7 +24,7 @@ export default function HeroSection() {
           <button className="bg-[#7e66f9] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a57cf] transition-colors flex items-center">
             Get Started Today
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              
               className="h-5 w-5 ml-2"
               viewBox="0 0 20 20"
               fill="currentColor"
@@ -38,10 +42,10 @@ export default function HeroSection() {
         <div className="w-full md:w-1/2 relative z-10">
           <div className="relative">
             {/* Main Image */}
-            <div className="bg-white p-4 rounded-2xl shadow-xl max-w-md mx-auto relative z-10">
+            <div className=" p-4 mx-w-[1600px] mn-w-[1200px] mx-auto relative z-10">
               <div className="rounded-xl overflow-hidden">
                 <img
-                  src="https://ext.same-assets.com/2333005974/1316595101.png"
+                  src= {sliderThumbImg}
                   alt="Online Education Platform"
                   className="w-full h-auto"
                 />
