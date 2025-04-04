@@ -1,6 +1,6 @@
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
-import Router from "./components/router/Router";
+import Router from "./router/Router";
 
 import "./App.css";
 
