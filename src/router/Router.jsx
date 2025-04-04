@@ -10,7 +10,7 @@ export default function Router() {
   return (
     <Routes>
       <Route path="/home" element={<HomePage />} />
-      <Route path="/about-us" element={<AboutPage />} />
+      <Route path="/about" element={<AboutPage />} />
       <Route path="/courses" element={<CoursesPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/shop" element={<ShopPage />} />
