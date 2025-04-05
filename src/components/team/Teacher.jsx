@@ -1,29 +1,35 @@
+import img1 from "../../assets/Images/teacher/img1.jpg";
+import img2 from "../../assets/Images/teacher/img2.jpg";
+import img3 from "../../assets/Images/teacher/img3.jpg";
+import img4 from "../../assets/Images/teacher/img4.jpg";
+import img5 from "../../assets/Images/teacher/img5.jpg";
+
 export default function Teacher() {
   const teamMembers = [
     {
       name: "Lillian King",
       role: "WordPress Expert",
-      img: "https://via.placeholder.com/150", // Replace with actual image URL
+      img: img1,
     },
     {
       name: "Kelly Franklin",
       role: "Designer",
-      img: "https://via.placeholder.com/150",
+      img: img2,
     },
     {
       name: "Hilary Ouse",
       role: "PHP Expert",
-      img: "https://via.placeholder.com/150",
+      img: img3,
     },
     {
       name: "Isabelle",
       role: "Digital Marketer",
-      img: "https://via.placeholder.com/150",
+      img: img4,
     },
     {
       name: "Martha",
       role: "SEO Expert",
-      img: "https://via.placeholder.com/150",
+      img: img5,
     },
   ];
 
@@ -37,7 +43,7 @@ export default function Teacher() {
           <img
             src={member.img}
             alt={member.name}
-            className="w-32 h-32 mx-auto rounded-lg"
+            className="w-70 h-60 mx-auto rounded-lg"
           />
           <h3 className="text-xl font-semibold mt-4">{member.name}</h3>
           <p className="text-gray-500">{member.role}</p>
