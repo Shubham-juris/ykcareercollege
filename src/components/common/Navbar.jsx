@@ -25,7 +25,7 @@ export default function Navbar() {
               />
             </svg>
           </div>
-          <span className="font-bold text-xl text-gray-800">Edu Vice</span>
+          <span className="font-bold text-xl text-gray-800">Yk Career College</span>
         </div>
 
         {/* Desktop Menu */}
@@ -71,7 +71,7 @@ export default function Navbar() {
             to="/"
             className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors"
           >
-            Login / Register
+            (+1) 234-567-8901
           </Link>
         </div>
 
@@ -140,7 +140,7 @@ export default function Navbar() {
               to="/"
               className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3"
             >
-              Login | Register
+              (+1) 234-567-8901
             </Link>
           </div>
         </div>
