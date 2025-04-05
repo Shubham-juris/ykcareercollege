@@ -276,7 +276,7 @@ export default function Footer() {
         {/* Bottom Copyright */}
         <div className="pt-8 border-t border-[#4b5675] text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Edu Vice. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Yk Career College. All Rights Reserved.
           </p>
         </div>
       </div>
