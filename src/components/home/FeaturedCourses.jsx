@@ -10,10 +10,10 @@ export default function FeaturedCourses() {
         image: "https://randomuser.me/api/portraits/women/32.jpg",
       },
       rating: 5.0,
-      students: 329,
-      lessons: 15,
-      duration: "15 week",
-      price: "$58.00",
+      // students: 329,
+      // lessons: 15,
+      // duration: "15 week",
+      // price: "$58.00",
     },
     {
       id: 2,
@@ -25,10 +25,10 @@ export default function FeaturedCourses() {
         image: "https://randomuser.me/api/portraits/women/44.jpg",
       },
       rating: 5.0,
-      students: 229,
-      lessons: 17,
-      duration: "18 week",
-      price: "$59.00",
+      // students: 229,
+      // lessons: 17,
+      // duration: "18 week",
+      // price: "$59.00",
     },
     {
       id: 3,
@@ -40,10 +40,10 @@ export default function FeaturedCourses() {
         image: "https://randomuser.me/api/portraits/women/32.jpg",
       },
       rating: 5.0,
-      students: 529,
-      lessons: 15,
-      duration: "25 week",
-      price: "$55.00",
+      // students: 529,
+      // lessons: 15,
+      // duration: "25 week",
+      // price: "$55.00",
     },
   ];
 
@@ -148,7 +148,7 @@ export default function FeaturedCourses() {
                   {course.title}
                 </h3>
 
-                <div className="flex text-gray-600 text-sm mb-5 space-x-4">
+                {/* <div className="flex text-gray-600 text-sm mb-5 space-x-4">
                   <div className="flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -183,9 +183,9 @@ export default function FeaturedCourses() {
                     </svg>
                     {course.lessons} Lessons
                   </div>
-                </div>
+                </div> */}
 
-                <div className="flex items-center justify-between">
+                {/* <div className="flex items-center justify-between">
                   <div className="flex items-center text-gray-600 text-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +206,7 @@ export default function FeaturedCourses() {
                   <span className="text-[#7e66f9] font-bold text-lg">
                     {course.price}
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

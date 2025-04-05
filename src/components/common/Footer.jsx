@@ -22,7 +22,7 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <span className="font-bold text-xl">Edu Vice</span>
+              <span className="font-bold text-xl">Yk Career College</span>
             </div>
 
             <p className="text-gray-300 mb-6">
@@ -224,7 +224,7 @@ export default function Footer() {
                 </svg>
                 <div className="text-gray-300">
                   123 Education Street, <br />
-                  Learning City, EDU 9876, <br />
+                  Learning City,  <br />
                   United States
                 </div>
               </div>
@@ -266,8 +266,7 @@ export default function Footer() {
                   />
                 </svg>
                 <div className="text-gray-300">
-                  info@eduvice.com <br />
-                  support@eduvice.com
+                ykcareercollege@gmail.com
                 </div>
               </div>
             </div>
