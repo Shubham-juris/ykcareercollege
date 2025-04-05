@@ -46,10 +46,10 @@ export default function Navbar() {
             Courses
           </Link>
           <Link
-            to="/pages"
+            to="/teams"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
-            Pages
+            Teams
           </Link>
           <Link
             to="/blog"
@@ -119,7 +119,7 @@ export default function Navbar() {
               Courses
             </Link>
             <Link
-              to="/pages"
+              to="/teams"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
               Pages
