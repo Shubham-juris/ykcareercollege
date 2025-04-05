@@ -6,9 +6,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="font-sans m-0">
+    <div style={{ boxSizing: "border-box" }} className="font-sans m-0">
       <Navbar />
-      <main>
+      <main className="mx-auto max-w-[1240px]">
         <Router />
       </main>
       <Footer />
