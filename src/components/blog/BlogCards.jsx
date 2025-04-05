@@ -1,4 +1,12 @@
 import { useState } from "react";
+import img1 from "../../assets/Images/blog/img1.jpg";
+import img2 from "../../assets/Images/blog/img2.jpg";
+import img3 from "../../assets/Images/blog/img3.jpg";
+import img4 from "../../assets/Images/blog/img4.jpg";
+import img5 from "../../assets/Images/blog/img5.jpg";
+import img6 from "../../assets/Images/blog/img6.jpg";
+import img7 from "../../assets/Images/blog/img7.jpg";
+import img8 from "../../assets/Images/blog/img8.jpg";
 
 export default function BlogCards() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -6,7 +14,7 @@ export default function BlogCards() {
   const blogs = [
     {
       id: 1,
-      image: "https://via.placeholder.com/300", // Replace with actual image
+      image: img1,
       date: "17 April, 2023",
       author: "Alomgir Hosen",
       title: "The Complete Web Developer Guideline 2023",
@@ -16,7 +24,7 @@ export default function BlogCards() {
     },
     {
       id: 2,
-      image: "https://via.placeholder.com/300",
+      image: img2,
       date: "20 August, 2023",
       author: "Shahin Alam",
       title: "Social Media Marketing and MASTERY (A-Z) Journey",
@@ -26,7 +34,7 @@ export default function BlogCards() {
     },
     {
       id: 3,
-      image: "https://via.placeholder.com/300",
+      image: img3,
       date: "10 June, 2023",
       author: "Negar Safa",
       title: "Branding: How to Brand Yourself and Your Business",
@@ -36,7 +44,7 @@ export default function BlogCards() {
     },
     {
       id: 4,
-      image: "https://via.placeholder.com/300",
+      image: img4,
       date: "05 May, 2023",
       author: "Sarah Johnson",
       title: "The Future of AI in Digital Marketing",
@@ -46,7 +54,7 @@ export default function BlogCards() {
     },
     {
       id: 5,
-      image: "https://via.placeholder.com/300",
+      image: img5,
       date: "30 September, 2023",
       author: "David Lee",
       title: "E-commerce Growth Strategies for 2024",
@@ -56,7 +64,7 @@ export default function BlogCards() {
     },
     {
       id: 6,
-      image: "https://via.placeholder.com/300",
+      image: img6,
       date: "12 December, 2023",
       author: "Emma Watson",
       title: "Content Creation Tips for Social Media Success",
@@ -66,7 +74,7 @@ export default function BlogCards() {
     },
     {
       id: 7,
-      image: "https://via.placeholder.com/300",
+      image: img7,
       date: "22 February, 2024",
       author: "John Doe",
       title: "SEO in 2024: What You Need to Know",
@@ -76,7 +84,7 @@ export default function BlogCards() {
     },
     {
       id: 8,
-      image: "https://via.placeholder.com/300",
+      image: img8,
       date: "14 March, 2024",
       author: "Sophia Martinez",
       title: "The Power of Personal Branding",
