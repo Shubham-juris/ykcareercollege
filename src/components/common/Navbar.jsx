@@ -34,7 +34,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            to={"/about"}
+            to="/about"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
             About
@@ -46,23 +46,23 @@ export default function Navbar() {
             Courses
           </Link>
           <Link
-            to="/team"
+            to="/pages"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
-            Teams
+            Pages
           </Link>
           <Link
-            to="blog"
+            to="/blog"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
             Blog
           </Link>
-          <Link
+          {/* <Link
             to="/shop"
             className="text-gray-600 hover:text-[#7e66f9] transition-colors"
           >
             Shop
-          </Link>
+          </Link> */}
         </div>
 
         {/* Login/Register Button */}
@@ -119,10 +119,10 @@ export default function Navbar() {
               Courses
             </Link>
             <Link
-              to="/team"
+              to="/pages"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
-              Teams
+              Pages
             </Link>
             <Link
               to="/blog"
@@ -130,12 +130,12 @@ export default function Navbar() {
             >
               Blog
             </Link>
-            <Link
+            {/* <Link
               to="/shop"
               className="text-gray-600 hover:text-[#7e66f9] transition-colors"
             >
               Shop
-            </Link>
+            </Link> */}
             <Link
               to="/"
               className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3"
