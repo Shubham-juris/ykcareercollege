@@ -212,16 +212,15 @@ export default function Footer() {
                   />
                 </svg>
                 <div className="text-gray-300">
-                  123 Education Street, <br />
-                  Learning City, <br />
-                  United States
+                  32 Westwinds Cres NE, <br />
+                  AB,Canada, Alberta <br />
                 </div>
               </div>
 
               <div className="flex items-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#7e66f9] mr-3 mt-1"
+                  className="h-6 w-6 text-[#7e66f9] mr-3 mt-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -234,6 +233,12 @@ export default function Footer() {
                   />
                 </svg>
                 <div className="text-gray-300">
+                  <a
+                    href="tel:+15873514555"
+                    className="  rounded-md  hover:bg-[#6a57cf] transition-colors   block"
+                  >
+                    +1 587-351-4555
+                  </a>
                   <a
                     href="tel:+15875839664"
                     className="  rounded-md  hover:bg-[#6a57cf] transition-colors   block"
