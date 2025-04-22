@@ -1,81 +1,61 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const linkClasses = ({ isActive }) =>
+    isActive
+      ? "text-[#7e66f9] font-medium"
+      : "text-gray-600 hover:text-[#7e66f9] transition-colors";
+
   return (
     <nav className="bg-white shadow-sm py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        {/* Logo */}
         <div className="flex items-center">
-          <div className="bg-[#7e66f9] p-2 rounded-md mr-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-white"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-              />
-            </svg>
+          <div className="bg-white p-1 rounded-md mx-2">
+            <img
+              src={logo}
+              alt="Yk Career College Logo"
+              className="h-20 w-auto object-contain"
+            />
           </div>
-          <span className="font-bold text-xl text-gray-800">Yk Career College</span>
+
+          {/* <span className="font-bold text-2xl text-[#7e66f9]">
+            Yk Career College
+          </span> */}
         </div>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/" className="text-[#7e66f9] font-medium">
+          <NavLink to="/" className={linkClasses}>
             Home
-          </Link>
-          <Link
-            to="/about"
-            className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-          >
+          </NavLink>
+          <NavLink to="/about" className={linkClasses}>
             About
-          </Link>
-          <Link
-            to="/courses"
-            className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-          >
+          </NavLink>
+          <NavLink to="/courses" className={linkClasses}>
             Courses
-          </Link>
-          <Link
-            to="/teams"
-            className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-          >
+          </NavLink>
+          <NavLink to="/teams" className={linkClasses}>
             Teams
-          </Link>
-          <Link
-            to="/blog"
-            className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-          >
+          </NavLink>
+          <NavLink to="/blog" className={linkClasses}>
             Blog
-          </Link>
-          {/* <Link
-            to="/shop"
-            className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-          >
-            Shop
-          </Link> */}
+          </NavLink>
         </div>
 
-        {/* Login/Register Button */}
+       
         <div className="hidden md:block">
-          <Link
-            to="/"
-            className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors"
+          <a
+            href="tel:+15875839664"
+            className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
           >
-            (+1) 234-567-8901
-          </Link>
+            +587-583-9664
+          </a>
         </div>
 
-        {/* Mobile Menu Button */}
+       
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -99,49 +79,30 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden shadow-md mt-2 py-3 px-4 bg-white">
           <div className="flex flex-col space-y-3">
-            <Link to="/" className="text-[#7e66f9] font-medium">
+            <NavLink to="/" className={linkClasses}>
               Home
-            </Link>
-            <Link
-              to="/about"
-              className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-            >
+            </NavLink>
+            <NavLink to="/about" className={linkClasses}>
               About
-            </Link>
-            <Link
-              to="/courses"
-              className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-            >
+            </NavLink>
+            <NavLink to="/courses" className={linkClasses}>
               Courses
-            </Link>
-            <Link
-              to="/teams"
-              className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-            >
-              Pages
-            </Link>
-            <Link
-              to="/blog"
-              className="text-gray-600 hover:text-[#7e66f9] transition-colors"
-            >
+            </NavLink>
+            <NavLink to="/teams" className={linkClasses}>
+              Teams
+            </NavLink>
+            <NavLink to="/blog" className={linkClasses}>
               Blog
-            </Link>
-            {/* <Link
-              to="/shop"
-              className="text-gray-600 hover:text-[#7e66f9] transition-colors"
+            </NavLink>
+            <a
+              href="tel:+15875839664"
+              className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
             >
-              Shop
-            </Link> */}
-            <Link
-              to="/"
-              className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3"
-            >
-              (+1) 234-567-8901
-            </Link>
+              +587-583-9664
+            </a>
           </div>
         </div>
       )}

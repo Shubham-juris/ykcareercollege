@@ -1,27 +1,19 @@
+import logo from "../../assets/logo.png";
 export default function Footer() {
   return (
     <footer className="bg-[#303d55] text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          {/* Column 1 - About */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="bg-[#7e66f9] p-2 rounded-md mr-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  />
-                </svg>
+              <div className="bg-white p-1 rounded-md mx-2">
+                <img
+                  src={logo}
+                  alt="Yk Career College Logo"
+                  className="h-16 w-auto object-contain"
+                />
               </div>
+
               <span className="font-bold text-xl">Yk Career College</span>
             </div>
 
@@ -33,7 +25,7 @@ export default function Footer() {
 
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/YKCollege"
                 className="h-10 w-10 bg-[#4b5675] flex items-center justify-center rounded-full hover:bg-[#7e66f9] transition-colors"
               >
                 <svg
@@ -63,7 +55,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/theykcareercollege"
                 className="h-10 w-10 bg-[#4b5675] flex items-center justify-center rounded-full hover:bg-[#7e66f9] transition-colors"
               >
                 <svg
@@ -95,7 +87,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 2 - Quick Links */}
           <div>
             <h3 className="text-xl font-bold mb-6">Quick Links</h3>
             <ul className="space-y-3">
@@ -150,7 +141,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 - Support */}
           <div>
             <h3 className="text-xl font-bold mb-6">Support</h3>
             <ul className="space-y-3">
@@ -197,7 +187,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4 - Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-6">Contact Info</h3>
             <div className="space-y-4">
@@ -224,7 +213,7 @@ export default function Footer() {
                 </svg>
                 <div className="text-gray-300">
                   123 Education Street, <br />
-                  Learning City,  <br />
+                  Learning City, <br />
                   United States
                 </div>
               </div>
@@ -245,8 +234,12 @@ export default function Footer() {
                   />
                 </svg>
                 <div className="text-gray-300">
-                  (+1) 234-567-8901 <br />
-                  (+1) 234-567-8902
+                  <a
+                    href="tel:+15875839664"
+                    className="  rounded-md  hover:bg-[#6a57cf] transition-colors   block"
+                  >
+                    +587-583-9664
+                  </a>
                 </div>
               </div>
 
@@ -265,9 +258,12 @@ export default function Footer() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <div className="text-gray-300">
+                <a
+                  href="mailto:ykcareercollege@gmail.com"
+                  className="text-gray-300 text-md hover:text-[#7e66f9] transition-colors"
+                >
                   ykcareercollege@gmail.com
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -276,7 +272,8 @@ export default function Footer() {
         {/* Bottom Copyright */}
         <div className="pt-8 border-t border-[#4b5675] text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Yk Career College. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Yk Career College. All Rights
+            Reserved.
           </p>
         </div>
       </div>
