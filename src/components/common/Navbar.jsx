@@ -48,10 +48,10 @@ export default function Navbar() {
        
         <div className="hidden md:block">
           <a
-            href="tel:+15875839664"
+            href="tel:(403)921-4529"
             className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
           >
-            +587-583-9664
+          (403)921-4529
           </a>
         </div>
 
@@ -98,10 +98,10 @@ export default function Navbar() {
               Blog
             </NavLink>
             <a
-              href="tel:+15875839664"
+              href="tel:(403)921-4529"
               className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
             >
-              +587-583-9664
+             (403)921-4529
             </a>
           </div>
         </div>

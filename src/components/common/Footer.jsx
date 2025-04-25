@@ -212,8 +212,7 @@ export default function Footer() {
                   />
                 </svg>
                 <div className="text-gray-300">
-                  32 Westwinds Cres NE, <br />
-                  AB,Canada, Alberta <br />
+                  Slave Lake
                 </div>
               </div>
 
@@ -234,17 +233,12 @@ export default function Footer() {
                 </svg>
                 <div className="text-gray-300">
                   <a
-                    href="tel:+15873514555"
+                    href="tel:(403)921-4529"
                     className="  rounded-md  hover:bg-[#6a57cf] transition-colors   block"
                   >
-                    +1 587-351-4555
+                    (403)921-4529
                   </a>
-                  <a
-                    href="tel:+15875839664"
-                    className="  rounded-md  hover:bg-[#6a57cf] transition-colors   block"
-                  >
-                    +587-583-9664
-                  </a>
+                  
                 </div>
               </div>
 
