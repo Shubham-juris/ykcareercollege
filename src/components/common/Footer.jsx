@@ -212,7 +212,8 @@ export default function Footer() {
                   />
                 </svg>
                 <div className="text-gray-300">
-                  Slave Lake
+                215-213 Main Street, <br/>
+                Slave Lake AB, T0G 2A2
                 </div>
               </div>
 
