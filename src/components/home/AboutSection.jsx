@@ -2,6 +2,7 @@
 import { BiCheck } from "react-icons/bi";
 // import aboutThumbImage from "../../assets/Images/Home/about-thumb.png"
 import aboutThumbImage from "../../assets/Images/Home/about-thumb.png"
+import { Link } from "react-router-dom";
 
 
 export default function AboutSection() {
@@ -100,7 +101,7 @@ export default function AboutSection() {
               </div>
 
               <button className="bg-[#7e66f9] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a57cf] transition-colors flex items-center">
-                Know About Us
+              <Link to ="/about">  Know About Us</Link>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 ml-2"
