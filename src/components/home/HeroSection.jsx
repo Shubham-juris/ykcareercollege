@@ -1,5 +1,6 @@
 // import sliderThumbImg from "../../assets/Images/Home/HeroSection/slider-thumb.png"
-import Link from "react-router-dom"
+
+import { Link } from "react-router-dom";
 import sliderThumbImg from "../../assets/Images/Home/slider-thumb.png"
 
 export default function HeroSection() {
@@ -21,8 +22,8 @@ export default function HeroSection() {
             thousands of students from around the world in a journey of
             knowledge and personal growth,
           </p>
-         <Link to="/courses"> <button className="bg-[#7e66f9] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a57cf] transition-colors flex items-center">
-            Get Started Today
+          <button className="bg-[#7e66f9] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a57cf] transition-colors flex items-center">
+           <Link to ="/courses"> Get Started Today</Link>
             <svg
               
               className="h-5 w-5 ml-2"
@@ -35,7 +36,7 @@ export default function HeroSection() {
                 clipRule="evenodd"
               />
             </svg>
-          </button></Link>
+          </button>
         </div>
 
         {/* Right Image with Elements */}

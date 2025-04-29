@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function AboutWorkshop() {
   return (
     <section className="py-16 md:py-24">
@@ -56,7 +58,7 @@ export default function AboutWorkshop() {
             </p>
 
             <button className="bg-[#6f42c1] text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-md transition duration-300 flex items-center space-x-2">
-              <span>More Upcoming Workshop</span>
+              <span><Link to ="/blog">More Upcoming Workshop</Link></span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
