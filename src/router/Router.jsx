@@ -12,7 +12,7 @@ export default function Router() {
       <Route path="/home" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/courses" element={<CoursesPage />} />
-      <Route path="/blog" element={<BlogPage />} />
+{/*       <Route path="/blog" element={<BlogPage />} /> */}
       {/* <Route path="/shop" element={<ShopPage />} /> */}
       <Route path="/teams" element={<TeamPage />} />
       <Route path="/" element={<HomePage />} />
