@@ -37,12 +37,12 @@ export default function Navbar() {
           <NavLink to="/courses" className={linkClasses}>
             Courses
           </NavLink>
-          <NavLink to="/teams" className={linkClasses}>
+{/*           <NavLink to="/teams" className={linkClasses}>
             Teams
           </NavLink>
           <NavLink to="/blog" className={linkClasses}>
             Blog
-          </NavLink>
+          </NavLink> */}
         </div>
 
        
