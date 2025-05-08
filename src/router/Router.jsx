@@ -14,7 +14,7 @@ export default function Router() {
       <Route path="/courses" element={<CoursesPage />} />
 {/*       <Route path="/blog" element={<BlogPage />} /> */}
       {/* <Route path="/shop" element={<ShopPage />} /> */}
-      <Route path="/teams" element={<TeamPage />} />
+{/*       <Route path="/teams" element={<TeamPage />} /> */}
       <Route path="/" element={<HomePage />} />
     </Routes>
   );
