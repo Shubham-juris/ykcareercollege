@@ -213,7 +213,9 @@ export default function Footer() {
                 </svg>
                 <div className="text-gray-300">
                 215-213 Main Street, <br/>
-                Slave Lake AB, T0G 2A2
+                Slave Lake AB, T0G 2A2<br/>
+
+                  311 32 WESTWINDS CRES NE, #110,CALGARY, Alberta ,T3J5L3
                 </div>
               </div>
 
@@ -272,8 +274,7 @@ export default function Footer() {
         {/* Bottom Copyright */}
         <div className="pt-8 border-t border-[#4b5675] text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Yk Career College. All Rights
-            Reserved.
+           
           </p>
         </div>
       </div>
