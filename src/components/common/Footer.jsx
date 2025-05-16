@@ -214,7 +214,7 @@ export default function Footer() {
                 <div className="text-gray-300">
                 215-213 Main Street, <br/>
                 Slave Lake AB, T0G 2A2<br/>
-
+<br/>
                   311 32 WESTWINDS CRES NE, #110,CALGARY, Alberta ,T3J5L3
                 </div>
               </div>
