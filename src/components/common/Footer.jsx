@@ -111,7 +111,7 @@ export default function Footer() {
                   href="/instructors"
                   className="text-gray-300 hover:text-white hover:underline transition-colors"
                 >
-                  Our Instructors
+                  
                 </a>
               </li>
               <li>
@@ -119,7 +119,7 @@ export default function Footer() {
                   href="/testimonials"
                   className="text-gray-300 hover:text-white hover:underline transition-colors"
                 >
-                  Testimonials
+                  
                 </a>
               </li>
               <li>
@@ -127,7 +127,7 @@ export default function Footer() {
                   href="/faq"
                   className="text-gray-300 hover:text-white hover:underline transition-colors"
                 >
-                  FAQ
+                  
                 </a>
               </li>
               <li>
@@ -135,7 +135,7 @@ export default function Footer() {
                   href="/contact"
                   className="text-gray-300 hover:text-white hover:underline transition-colors"
                 >
-                  Contact Us
+                  
                 </a>
               </li>
             </ul>
