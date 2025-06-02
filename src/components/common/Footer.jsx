@@ -142,7 +142,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-[#4b5675] text-center">
-          <p className="text-gray-400">O/A as Northern Career Education College</p>
+          <p className="text-gray-400">O/A The NorthWest Career Education College</p>
         </div>
       </div>
     </footer>
