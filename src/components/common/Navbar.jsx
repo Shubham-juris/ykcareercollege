@@ -11,19 +11,21 @@ export default function Navbar() {
       : "text-gray-600 hover:text-[#7e66f9] transition-colors";
 
   return (
-    <nav className="bg-white shadow-sm py-4">
+    <nav className="bg-white shadow-sm py-6">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="flex items-center">
-          <div className="bg-gradient-to-r from-purple-100 to-white p-2 rounded-xl shadow-md mx-2">
+        {/* Logo Section */}
+        <div className="flex items-center space-x-3">
+          <div className="bg-gradient-to-r from-purple-100 to-white p-2 rounded-xl shadow-lg">
             <img
               src={logo}
               alt="Yk Career College Logo"
-              className="h-24 w-auto object-contain transition-transform duration-300 hover:scale-105"
+              className="h-28 w-auto object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>
 
-        <div className="hidden md:flex items-center space-x-8">
+        {/* Desktop Navigation Links */}
+        <div className="hidden md:flex items-center space-x-10">
           <NavLink to="/" className={linkClasses}>
             Home
           </NavLink>
@@ -35,15 +37,17 @@ export default function Navbar() {
           </NavLink>
         </div>
 
+        {/* Call Button */}
         <div className="hidden md:block">
           <a
             href="tel:(403)921-4529"
-            className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
+            className="bg-[#7e66f9] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a57cf] transition-colors"
           >
             (403)921-4529
           </a>
         </div>
 
+        {/* Mobile Menu Toggle */}
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -51,7 +55,7 @@ export default function Navbar() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-7 w-7"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -67,9 +71,10 @@ export default function Navbar() {
         </div>
       </div>
 
+      {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className="md:hidden shadow-md mt-2 py-3 px-4 bg-white">
-          <div className="flex flex-col space-y-3">
+        <div className="md:hidden shadow-md mt-2 py-4 px-4 bg-white">
+          <div className="flex flex-col space-y-4">
             <NavLink to="/" className={linkClasses}>
               Home
             </NavLink>
@@ -87,7 +92,7 @@ export default function Navbar() {
             </NavLink>
             <a
               href="tel:(403)921-4529"
-              className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
+              className="bg-[#7e66f9] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-4"
             >
               (403)921-4529
             </a>
@@ -97,3 +102,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
