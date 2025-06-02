@@ -14,17 +14,13 @@ export default function Navbar() {
     <nav className="bg-white shadow-sm py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <div className="bg-white p-1 rounded-md mx-2">
+          <div className="bg-gradient-to-r from-purple-100 to-white p-2 rounded-xl shadow-md mx-2">
             <img
               src={logo}
               alt="Yk Career College Logo"
-              className="h-20 w-auto object-contain"
+              className="h-24 w-auto object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
-
-          {/* <span className="font-bold text-2xl text-[#7e66f9]">
-            Yk Career College
-          </span> */}
         </div>
 
         <div className="hidden md:flex items-center space-x-8">
@@ -37,25 +33,17 @@ export default function Navbar() {
           <NavLink to="/courses" className={linkClasses}>
             Courses
           </NavLink>
-{/*           <NavLink to="/teams" className={linkClasses}>
-            Teams
-          </NavLink>
-          <NavLink to="/blog" className={linkClasses}>
-            Blog
-          </NavLink> */}
         </div>
 
-       
         <div className="hidden md:block">
           <a
             href="tel:(403)921-4529"
             className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
           >
-          (403)921-4529
+            (403)921-4529
           </a>
         </div>
 
-       
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -101,7 +89,7 @@ export default function Navbar() {
               href="tel:(403)921-4529"
               className="bg-[#7e66f9] text-white px-5 py-2 rounded-md font-medium hover:bg-[#6a57cf] transition-colors text-center mt-3 block"
             >
-             (403)921-4529
+              (403)921-4529
             </a>
           </div>
         </div>
