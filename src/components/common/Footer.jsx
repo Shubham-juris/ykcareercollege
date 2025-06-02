@@ -232,6 +232,7 @@ export default function Footer() {
         {/* Bottom Copyright */}
         <div className="pt-8 border-t border-[#4b5675] text-center">
           <p className="text-gray-400">
+            <p>O/A as Northern Career Education College</p>
            
           </p>
         </div>
